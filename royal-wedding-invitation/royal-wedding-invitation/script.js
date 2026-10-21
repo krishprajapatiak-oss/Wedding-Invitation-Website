@@ -62,11 +62,11 @@ $("rsvpForm").addEventListener("submit", (event) => {
     message ? `Message: ${message}` : ""
   ].filter(Boolean).join("\n");
 
-  if (!/^\d{10,15}$/.test(whatsappNumber)) {
+  if (!/^\d{10,15}$/.test(9328507975)) {
     $("formStatus").textContent = "Please set a valid WhatsApp number in script.js first.";
     return;
   }
   $("formStatus").textContent = "Opening WhatsApp with your RSVP message…";
-  const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+  const url = `https://wa.me/${9328507975}?text=${encodeURIComponent(text)}`;
   window.open(url, "_blank", "noopener,noreferrer");
 });
