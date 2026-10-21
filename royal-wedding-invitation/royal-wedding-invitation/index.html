@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f0e5">
+  <meta name="description" content="You're invited to celebrate the wedding of Anil and Shambhavi.">
+  <title>Anil & Shambhavi — Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-note">WITH THE BLESSINGS OF OUR FAMILIES</div>
+  <nav class="nav">
+    <a class="brand" href="#home">A <span>♥</span> S</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#story">Our Story</a><a href="#events">Celebrations</a><a href="#venue">Venue</a><a href="#rsvp" class="nav-rsvp">RSVP</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-arch">
+        <div class="arch-ornament">✺</div>
+        <p class="eyebrow">A NEW CHAPTER BEGINS</p>
+        <h1>Anil <span>&</span><br>Shambhavi</h1>
+        <div class="flourish">❦ ❦ ❦</div>
+        <p class="hero-copy">Together with our families, we invite you to share in the joy of our wedding celebration.</p>
+        <p class="hero-date">21 <span>·</span> NOVEMBER <span>·</span> 2026</p>
+        <a class="button button-gold" href="#events">Explore the Invitation <span>↓</span></a>
+      </div>
+      <div class="hero-bottom"><span>✿</span> TWO HEARTS, ONE BEAUTIFUL JOURNEY <span>✿</span></div>
+    </section>
+
+    <section class="intro section" id="story">
+      <p class="eyebrow">A CELEBRATION OF LOVE</p>
+      <h2>Our families would be honoured<br>by your <em>presence</em></h2>
+      <div class="divider">❧ ✦ ❧</div>
+      <p class="body-copy">With grateful hearts and joyful spirits, we invite you to join us as we begin this beautiful journey together. Your blessings and presence will make our celebration unforgettable.</p>
+      <div class="names-signature">Anil <span>&</span> Shambhavi</div>
+    </section>
+
+    <section class="countdown-section">
+      <p class="eyebrow">THE BIG DAY IS APPROACHING</p>
+      <h2>Counting down to forever</h2>
+      <div class="countdown" aria-label="Countdown to wedding">
+        <div><strong id="days">00</strong><span>Days</span></div>
+        <div><strong id="hours">00</strong><span>Hours</span></div>
+        <div><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+      <p class="countdown-note">Until we tie the knot</p>
+    </section>
+
+    <section class="section events-section" id="events">
+      <p class="eyebrow">SAVE THESE DATES</p>
+      <h2>Wedding <em>Celebrations</em></h2>
+      <p class="section-subtitle">Each ceremony is a little chapter in our story. We hope you can join us for them all.</p>
+      <div class="event-grid">
+        <article class="event-card haldi">
+          <div class="event-symbol">✿</div><p class="event-tag">DAY ONE</p><h3>Haldi Ceremony</h3>
+          <p class="event-date">19 November 2026</p><p>11:00 AM onwards</p><p class="event-place">At the family residence</p>
+        </article>
+        <article class="event-card mehendi">
+          <div class="event-symbol">❋</div><p class="event-tag">DAY ONE</p><h3>Mehendi</h3>
+          <p class="event-date">19 November 2026</p><p>7:30 PM onwards</p><p class="event-place">At the family residence</p>
+        </article>
+        <article class="event-card wedding">
+          <div class="event-symbol">✧</div><p class="event-tag">THE MAIN CELEBRATION</p><h3>Wedding Ceremony</h3>
+          <p class="event-date">21 November 2026</p><p>7:00 PM onwards</p><p class="event-place">Convention Hall, The Heritage Hotel & Resort, Kursi Rd, Bajrang Vihar Colony, Kalyanpur (West), Guramba, Lucknow, Uttar Pradesh, 226026.</p>
+        </article>
+        <article class="event-card reception">
+          <div class="event-symbol">❦</div><p class="event-tag">LET'S CELEBRATE</p><h3>Reception</h3>
+          <p class="event-date">23 November 2026</p><p>8:00 PM onwards</p><p class="event-place">Convention Hall, Royal Orchids Banquets & Suits, Opposite Allen House Public School. PH 10, Raebareli Rd, Vrindavan Yojna-1.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="venue-section" id="venue">
+      <div class="venue-frame">
+        <p class="eyebrow">WE CAN'T WAIT TO SEE YOU</p>
+        <h2>Join us <em>there</em></h2>
+        <p class="venue-name">The Celebration Convention Hall</p>
+        <p class="body-copy">The Heritage Hotel & Resort, Kursi Rd, Bajrang Vihar Colony, Kalyanpur (West), Guramba.</p>
+        <p class="venue-address">Lucknow · Uttar Pradesh · 226026</p>
+        <a class="button button-outline" id="mapLink" href="https://share.google/K0vYwU16bluZ2d8cp" target="_blank" rel="noopener">Get Directions ↗</a>
+      </div>
+    </section>
+
+    <section class="rsvp-section section" id="rsvp">
+      <p class="eyebrow">KINDLY RESPOND</p>
+      <h2>Will you <em>join us?</em></h2>
+      <p class="section-subtitle">Your presence would mean the world to us. Let us know if you can make it.</p>
+      <form id="rsvpForm" class="rsvp-form">
+        <label for="guestName">Your name</label><input id="guestName" name="guestName" required placeholder="Enter your full name">
+        <label for="attendance">Will you attend?</label>
+        <select id="attendance" name="attendance" required><option value="">Choose an option</option><option value="Joyfully accepts">Joyfully accepts</option><option value="Regretfully declines">Regretfully declines</option></select>
+        <label for="guestCount">Number of guests</label>
+        <select id="guestCount" name="guestCount"><option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option></select>
+        <label for="message">A note for the couple (optional)</label><textarea id="message" name="message" rows="3" placeholder="Write a little message..."></textarea>
+        <button class="button button-gold submit-button" type="submit">Prepare RSVP Message ↗</button>
+        <p class="form-note">This starter form opens WhatsApp with your RSVP message. Change the phone number in script.js before publishing.</p>
+        <p id="formStatus" class="form-status" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-flower">✿</div>
+    <p>MADE WITH LOVE</p>
+    <div class="footer-names">Anil <span>&</span> Shambhavi</div>
+    <p class="footer-date">21 · 11 · 2026</p>
+    <p class="copyright">We look forward to celebrating with you.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
