@@ -2,7 +2,7 @@
 const weddingDate = new Date("2026-11-21T19:00:00+05:30");
 // Use the couple's WhatsApp number with country code, digits only.
 // Example for India: 919876543210. Replace this demo number.
-const whatsappNumber = "919876543210";
+const whatsappNumber = "919328507075";
 // Optional: put the complete Google Maps directions URL for your venue here.
 const venueMapUrl = "https://maps.google.com/";
 
@@ -62,11 +62,11 @@ $("rsvpForm").addEventListener("submit", (event) => {
     message ? `Message: ${message}` : ""
   ].filter(Boolean).join("\n");
 
-  if (!/^\d{10,15}$/.test(9328507975)) {
+  if (!/^\d{10,15}$/.test(919328507975)) {
     $("formStatus").textContent = "Please set a valid WhatsApp number in script.js first.";
     return;
   }
   $("formStatus").textContent = "Opening WhatsApp with your RSVP message…";
-  const url = `https://wa.me/${9328507975}?text=${encodeURIComponent(text)}`;
+  const url = `https://wa.me/${919328507975}?text=${encodeURIComponent(text)}`;
   window.open(url, "_blank", "noopener,noreferrer");
 });
